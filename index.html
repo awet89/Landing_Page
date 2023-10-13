@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+</head>
+<style>
+    *{
+        padding:0px;
+        margin:0px;
+    }
+    .page{
+        display:flex;
+        flex-direction:column;
+    }
+    .section_1{
+        background-color: #1F2937;
+        display:flex;
+        flex-direction: column;
+        
+    }
+    .sec2{
+        background-color: white;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec3{
+        background-color: #E5E7EB;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-info{
+        display: flex;
+        color:white;
+        justify-content:space-between;
+        margin-bottom:50px;
+    }
+    
+    .header-info .header_logo{
+       list-style-type: none;
+       font-size: 24px;
+       color: #F9FAF8;
+      
+       margin-right:0px;
+       padding:0px;
+    
+    }
+    .header-info .header-links{
+       display: flex;
+       justify-content: space-between;
+       gap: 20px;
+       list-style-type: none;
+       font-size: 18px;
+       color: #E5E7EB;
+       border: 3px solid;
+       margin-right:100px;
+       
+    }
+    .hero-main-text{
+        display: flex;
+        justify-content:space-between; 
+        margin-left:100px;
+        padding:0px;
+        margin-bottom:20px;
+    }
+    .section_1 .hero-main-text .content {
+        color:white;
+        max-width: 350px;
+        border: 20px;
+        border: 3px solid;
+    }
+    .img{
+        
+        color:white;
+        margin-right: 40px;
+        
+    }
+    .section_1 .header-info .header_logo{
+        margin-left:100px;
+    }
+    .hero-main-text h1{
+        font-size: 48px;
+        font-weight:bolder;
+        color: #F9FAF8;
+    }
+    .hero-main-text .content button{
+        margin-top: 10px;
+        background-color: blue;
+        color: white;
+        padding:5px;
+    }
+    .sec2 p{
+       font-size:25px; 
+       margin-top: 15px;
+       font-weight: bold;
+    }
+    .sec2 .image-with-text img{
+        width: 200px;
+        height: 150px;
+    }
+    .sec2 .image-with-text .text-overlay{
+        width: 200px;
+       
+
+    }
+    .pics{
+        display:flex;
+        gap: 40px;
+        
+    }
+    .sec3 q{
+        font-size: 36px;
+        padding: 50px;
+        width: 500px;
+        height: 150px;
+    }
+    .sec4{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        gap:30px;
+        background-color: blue;
+        margin:30px;
+        width: 1000px;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+
+<body>
+    <div class="page">
+        <div class="section_1">
+            
+            <div class="header-info">
+                
+                <ul class="header_logo">
+                    <p>Header Logo</p>
+                </ul>
+
+                <ul class="header-links">
+                    <li> header link one</li>
+                    <li> header link two</li>
+                    <li> header link three</li>
+                </ul>
+            </div>
+
+            <div class="hero-main-text">
+                <div class="content">
+                    <h1>This website is awesome</h1>
+                    <p> This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+                    <button> Sign up</button>
+                </div>
+                <div class="img">
+                    <img>Image place holder</img>
+                </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="sec2"> 
+            <p>Some random information</p>
+            <div class="pics">
+                <div class="image-with-text">
+                    <img src="/Users/awettesfamariam/Documents/Landing_page/MP.jpeg" alt="Defense Wins Championships">
+                    <div class="text-overlay">
+                    Defense wins Championships
+                    </div>
+                </div>
+                <div class="image-with-text">
+                    <img src="/Users/awettesfamariam/Documents/Landing_page/CD.webp" alt="Defense Wins Championships">
+                    <div class="text-overlay">
+                    Offense wins Championships
+                    </div>
+                </div>
+                <div class="image-with-text">
+                    <img src="/Users/awettesfamariam/Documents/Landing_page/kt.jpeg" alt="Defense Wins Championships">
+                    <div class="text-overlay">
+                    Special teams wins Championships
+                    </div>
+                </div>
+                <div class="image-with-text">
+                    <img src="/Users/awettesfamariam/Documents/Landing_page/kt.jpeg" alt="Defense Wins Championships">
+                    <div class="text-overlay">
+                    Special teams wins Championships
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sec3">
+            <q> Leadership is getting someone to do 
+                what they don't want to do, to achieve what 
+                they want to achieve.</q>
+        </div>
+
+        <div class="sec4">
+            <div class="Signup">
+            <h3>Call to action! Its time!</h3>
+            <p>Sign up for our product by clicking that button right over there! </p>
+            </div>
+            <button> Sign up</button>
+        </div>
+
+    </div>
+    <footer>
+        <p>Copyright © The Odin Project 2021</p>
+    </footer>
+</body>
+</html>
