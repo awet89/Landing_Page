@@ -39,16 +39,15 @@
         color:white;
         justify-content:space-between;
         margin-bottom:50px;
+        margin-top: 10px;
     }
     
     .header-info .header_logo{
        list-style-type: none;
        font-size: 24px;
        color: #F9FAF8;
-      
        margin-right:0px;
        padding:0px;
-    
     }
     .header-info .header-links{
        display: flex;
@@ -57,7 +56,6 @@
        list-style-type: none;
        font-size: 18px;
        color: #E5E7EB;
-       border: 3px solid;
        margin-right:100px;
        
     }
@@ -71,14 +69,6 @@
     .section_1 .hero-main-text .content {
         color:white;
         max-width: 350px;
-        border: 20px;
-        border: 3px solid;
-    }
-    .img{
-        
-        color:white;
-        margin-right: 40px;
-        
     }
     .section_1 .header-info .header_logo{
         margin-left:100px;
@@ -123,15 +113,35 @@
         display:flex;
         justify-content: center;
         align-items: center;
-        gap:30px;
-        background-color: blue;
         margin:30px;
-        width: 1000px;
+        
+    }
+    .sec4 button{
+        background-color: #3882F6;
+        color: white; 
+        border-radius: 8px;  
+        border: 2px solid white;
+        width: 100px;
+        padding: 6px;
+
+    }
+    .signup{
+        display:flex;
+        background-color: #3882F6;
+        padding: 40px;
+        gap: 70px;
+        color:white;
+        border-radius: 10px;
     }
     footer{
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .super img{
+        width: 600px;
+        height: auto;
+        
     }
 </style>
 
@@ -139,16 +149,15 @@
     <div class="page">
         <div class="section_1">
             
-            <div class="header-info">
-                
+            <div class="header-info"> 
                 <ul class="header_logo">
-                    <p>Header Logo</p>
+                    <p>Them Boys</p>
                 </ul>
 
                 <ul class="header-links">
-                    <li> header link one</li>
-                    <li> header link two</li>
-                    <li> header link three</li>
+                    <li> History</li>
+                    <li> Championships</li>
+                    <li> Schedule</li>
                 </ul>
             </div>
 
@@ -158,10 +167,8 @@
                     <p> This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
                     <button> Sign up</button>
                 </div>
-                <div class="img">
-                    <img>Image place holder</img>
-                </div>
-
+                <div class="super">
+                    <img src="/Users/awettesfamariam/repos/Landing_page/Image/SB.jpeg">
                 </div>
             </div>
         </div>
@@ -169,25 +176,25 @@
             <p>Some random information</p>
             <div class="pics">
                 <div class="image-with-text">
-                    <img src="/Users/awettesfamariam/Documents/Landing_page/MP.jpeg" alt="Defense Wins Championships">
+                    <img src="/Users/awettesfamariam/repos/Landing_page/Image/MP.jpeg" alt="Defense Wins Championships">
                     <div class="text-overlay">
                     Defense wins Championships
                     </div>
                 </div>
                 <div class="image-with-text">
-                    <img src="/Users/awettesfamariam/Documents/Landing_page/CD.webp" alt="Defense Wins Championships">
+                    <img src="/Users/awettesfamariam/repos/Landing_page/Image/CD.webp" alt="Defense Wins Championships">
                     <div class="text-overlay">
                     Offense wins Championships
                     </div>
                 </div>
                 <div class="image-with-text">
-                    <img src="/Users/awettesfamariam/Documents/Landing_page/kt.jpeg" alt="Defense Wins Championships">
+                    <img src="/Users/awettesfamariam/repos/Landing_page/Image/kt.jpeg" alt="Defense Wins Championships">
                     <div class="text-overlay">
                     Special teams wins Championships
                     </div>
                 </div>
                 <div class="image-with-text">
-                    <img src="/Users/awettesfamariam/Documents/Landing_page/kt.jpeg" alt="Defense Wins Championships">
+                    <img src="/Users/awettesfamariam/repos/Landing_page/Image/kt.jpeg" alt="Defense Wins Championships">
                     <div class="text-overlay">
                     Special teams wins Championships
                     </div>
@@ -202,11 +209,16 @@
         </div>
 
         <div class="sec4">
-            <div class="Signup">
-            <h3>Call to action! Its time!</h3>
-            <p>Sign up for our product by clicking that button right over there! </p>
+            <div class="signup">
+                <div class="Part1">
+                    <h3>Call to action! Its time!</h3>
+                    <p>Sign up for our product by clicking that button right over there! </p>
+                </div>
+            
+                <div class="Part2">
+                    <button> Sign up</button>
+                </div>
             </div>
-            <button> Sign up</button>
         </div>
 
     </div>
